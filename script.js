@@ -122,7 +122,6 @@ function checkConfirmPassword(input, pref) {
         isConfirmPasswordError = false
     } else {
         showError(input, "The entered passwords do not match. Try again.")
-        input.value = ''
     }
     return isConfirmPasswordError
 }
