@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validation Form</title>
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <div class="form-popup">
+        <div class="popup-img">
+            <img src="checked.png" alt="">
+        </div>
+        <h1>Good job!</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque sit nihil porro delectus, animi pariatur cupiditate voluptas vitae ad explicabo voluptatum quasi aliquid eaque.</p>
+    <button><a href="">Back to Homepage</a></button>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <h1>Register</h1>
+
+            <div class="form-control">
+                <input id="username" type="text" placeholder="Username">
+                <small></small>
+                <!-- Username is required -->
+                <span></span>
+            </div>
+
+            <div class="form-control">
+                <input id="email" type="text" placeholder="Email">
+                <small></small>
+                <!-- Email is required -->
+                <span></span>
+            </div>
+
+            <div class="form-control">
+                <input id="password" type="password" placeholder="Password">
+                <small></small>
+                <!-- Password is required -->
+                <span></span>
+            </div>
+
+            <div class="form-control">
+                <input id="confirm-password" type="password" placeholder="Confirm password">
+                <small></small>
+                <!-- Password is not matched -->
+                <span></span>
+            </div>
+
+            <button class="btn-submit">Sign Up</button>
+        </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
